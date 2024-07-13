@@ -1,0 +1,465 @@
+body {
+    font-family:Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position:relative;
+    
+}
+.container2 {
+    width: 358px;
+    height:259px;
+    margin: 0 auto;
+    padding-top:0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items:center;
+  
+}
+.container4 {
+    width: 358px;
+    height:400px;
+    margin: 0 auto;
+    padding:0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items:center;
+  
+}
+.container3{
+    background-color: #ffffff;
+    height:31px;
+    width:51px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(245, 237, 237, 0.959);
+    border-radius: 10px;
+
+
+}
+.container5{
+    background-color:#F0FFFA;
+    height:41px;
+    width:51px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(245, 237, 237, 0.959);
+    border-radius: 10px;
+    }
+.container6{
+    width: 358px;
+    height:170px;
+    margin: 0 auto;
+    padding-top:0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items:center;
+}
+.container7{
+    width: 358px;
+    height:165px;
+    margin: 0 auto;
+    padding-top:0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items:center;
+}
+.container8{
+    width: 358px;
+    height:275px;
+    margin: 0 auto;
+    padding-top:0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items:center;
+
+}
+.container9{
+    background-color:#F0FFFA;
+    height:41px;
+    width:51px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(245, 237, 237, 0.959);
+    border-radius: 10px;
+    margin-left:25px;
+    }
+.para{
+    font-size: 13px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #3ea175;
+    color: #ffffff;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.header-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vehicle {
+    font-size: 18px;
+}
+
+.notifications {
+    display: flex;
+    gap: 10px;
+}
+
+.services,.fastag-recharge, .discover,  .others, .deals, .travel, .premium-plans, .recharge-bill, .offers, .car-center, .trending, .exclusive-offers, .how-it-works {
+    padding: 10px;
+}
+.wallet{
+    padding:5px;
+    width:160px;
+    
+}
+.box{
+    display:flex;
+    background-color: white;
+    width:250px;
+    height:100px;
+    
+}
+.discover1{
+    padding-right: 20px;
+}
+.money{
+    position:relative;
+   
+}
+.money2{
+    position:absolute;
+    top:5px;
+    left:10px;
+    display:flex;
+    margin-left:20px;
+}
+
+.service{
+    margin-right:5px;
+    margin-top:8px;
+    
+}
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.service-grid, .discover-grid, .others-grid, .deals-grid, .travel-grid, .premium-grid, .recharge-bill-grid, .offers-grid, .car-center-grid, .exclusive-offers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.service, .discover-item, .other-item, .deal-item, .travel-item, .premium-item, .recharge-item, .offer-item, .car-center-item, .exclusive-offer-item {
+    background-color:#ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fastag-recharge input {
+    width: 245px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #F0FFFA;
+    font-size: 12px;
+    border-color: #3ea175;
+}
+
+
+.fastag-recharge button, .wallet button {
+    width: 150px;
+    padding: 10px;
+    margin:10px;
+    height:40px;
+    background-color: #3ea175;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.planbtn{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border:none;
+    
+}
+.plan{
+    position:relative;
+    margin-left:5px;
+}
+.plan2{
+    position: absolute;
+    top:5px;
+    left:10px;
+    font-size: 12px;
+   
+}
+
+/* General Styles for the section */
+.how-it-works {
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.how-it-works .one {
+    height: 17px;
+    width: 220px;
+    left: 15%;
+}
+
+/* Styles for the item container */
+.how-it-works-item {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Style for the first image */
+.how-it-works-item .clsfirstimg {
+    max-width:358px;
+    height: 170px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Style for the second image with overlapping effect */
+.how-it-works-item .clssecondimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+/* Style for the third image with overlapping effect */
+.how-it-works-item .clsthridimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 20%;
+    height: 24px;
+    z-index: 2;
+}
+/* General Styles for the section */
+.trending {
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.trending h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styles for the item container */
+.trending-item {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px; /* Adjust this value as needed */
+    margin: 0 auto;
+}
+
+/* Style for the first image */
+.trending-item .first {
+    width: 358px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Style for the second image with overlay effect */
+.trending-item .second {
+    position: absolute;
+    top: 20%; /* Adjust as needed */
+    left: 15%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.trending-item .thrid {
+    position: absolute;
+    top: 20%; /* Adjust as needed */
+    left: 25%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.trending-item .fourth {
+    position: absolute;
+    top: 20%; /* Adjust as needed */
+    left: 32%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.trending-item .fifth {
+    position: absolute;
+    top: 30%; /* Adjust as needed */
+    left: 32%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.trending-item .sixth {
+    position: absolute;
+    top: 43%; /* Adjust as needed */
+    left: 30%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.trending-item .seven {
+    position: absolute;
+    top: 70%; /* Adjust as needed */
+    left: 67%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.trending-item .eigth {
+    position: absolute;
+    top: 68%; /* Adjust as needed */
+    left: 80%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.trending-item .nine {
+    position: absolute;
+    top: 75%; /* Adjust as needed */
+    left: 84%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.trending-item .ten {
+    position: absolute;
+    top: 86%; /* Adjust as needed */
+    left: 45%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+/* General Styles for the section */
+.offers {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.offers h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styles for the item container */
+.offers-item {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px; /* Adjust this value as needed */
+    margin: 0 auto;
+}
+
+/* Style for the first image */
+.offers-item .first {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Style for the second image with overlay effect */
+.offers-item .second {
+    position: absolute;
+    top: 25%; /* Adjust as needed */
+    left: 45%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+    
+}
+.offers-item .thrid {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 45%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.offers-item .fourth {
+    position: absolute;
+    top: 70%; /* Adjust as needed */
+    left: 35%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
+.offers-item .fifth {
+    position: absolute;
+    top: 70%; /* Adjust as needed */
+    left: 65%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Adjust as needed */
+    height: auto;
+    z-index: 1;
+}
