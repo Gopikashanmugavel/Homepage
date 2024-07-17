@@ -463,3 +463,156 @@ h2 {
     height: auto;
     z-index: 1;
 }
+
+/* nearby parking */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.car{
+    color: #A0A0A0;
+    font-size:15px;
+    margin-left:10px;
+
+
+}
+.para1{
+    color: #A0A0A0;
+    width:18px;
+    height:16px;
+    margin-top:-1px;
+    margin-left:5px;
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #007b5e;
+    color: #fff;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.reserve{
+    color:#fff;
+    background-color:#00C62C ;
+    border-radius: 12px;
+    border:none;
+    width:110px;
+    height:35px;
+    margin-left:10px;
+}
+.currency{
+    display:flex;
+}
+.direction{
+   display:flex;
+}
+.tag {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.time-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.time, .fee, .destination {
+    text-align: center;
+}
+
+.info-tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #007b5e;
+    color: #fff;
+}
+
+.info-tabs button {
+    flex: 1;
+    padding: 10px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.space-features {
+    padding: 20px;
+}
+
+.space-features h3 {
+    margin: 0 0 10px 0;
+}
+
+.space-features ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-features ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.space-features p {
+    color: #777;
+}
+
+.streetview {
+    width: 100%;
+    padding: 15px;
+    background-color: #007b5e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+}
+
+.checkout {
+    width: 100%;
+    padding: 15px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* nearby parking */
